@@ -29,11 +29,11 @@ The Linux-based cluster consists of a head node (or "login node", the entry poin
 | GPUs | - | NVidia Quadro RTX 5000 (16 GB), 5 nodes<br>2x NVidia Quadro RTX 6000 (24 GB), 1 node# |
 
 The shared cluster storage is located on the "Bigfoot" Storage system.  
-One node (#) will be equipped with two large memory GPUs can be used for training of neural networks.
+One node (#) is equipped with two large memory GPUs and can be used for training of neural networks.
 
 ## Software 
 
-The operating system of the cluster is Ubuntu Linux 18.04.3 LTS. There is only command-line access, no graphical user interface.
+The operating system of the cluster is Ubuntu Linux 18.04.3 LTS (HWE). There is only command-line access, no graphical user interface.
 
 Software is handled via [environment modules](https://modules.readthedocs.io/en/latest/). Please contact the cluster admins to install software cluster-wide.
 
