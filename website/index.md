@@ -33,15 +33,13 @@ One node (#) is equipped with two large memory GPUs and can be used for training
 
 ## Software 
 
-The operating system of the cluster is Ubuntu Linux 18.04.3 LTS (HWE). There is only command-line access, no graphical user interface.
+The operating system of the cluster is Ubuntu Linux 18.04.4 LTS (HWE). There is only command-line access, no graphical user interface.
 
 Software is handled via [environment modules](https://modules.readthedocs.io/en/latest/). Please contact the cluster admins to install software cluster-wide.
 
 ## Administrators
 
 To get more info or a cluster user account, please contact the cluster admins:  
-[Benno](mailto:benno.gesierich@med.uni-muenchen.de),
-[Miguel](mailto:Miguel.Caballero@med.uni-muenchen.de) or 
-[Marco](mailto:marco.duering@med.uni-muenchen.de)
+[Benno](mailto:benno.gesierich@med.uni-muenchen.de) or [Marco](mailto:marco.duering@med.uni-muenchen.de)
 
 &nbsp;
