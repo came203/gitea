@@ -15,4 +15,4 @@ grip index.md --export --title="ISD HPC Cluster"
 
 Tweak the resulting index.html:
 
-* Heading: `<h3 style="font-size:16px;">`
+* Search `<h3>`, replace with `<h3 style="font-size:16px;">`

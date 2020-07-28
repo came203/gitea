@@ -1,5 +1,5 @@
-| [User Documentation](http://git.isd-muc.de:8080/DueringLab/Cluster_User/wiki) | [Dashboard](http://cluster.isd.med.uni-muenchen.de/dashboard.html) | [Gitea](http://git.isd-muc.de) |
-| --- | --- | --- |
+| [User Documentation](http://git.isd-muc.de:8080/DueringLab/Cluster_User/wiki) | [Dashboard](http://cluster.isd.med.uni-muenchen.de/dashboard.html) | [Detailed Dashboard](http://cluster.isd.med.uni-muenchen.de/dashboard2.html) | [Gitea](http://git.isd-muc.de) |
+| --- | --- | --- | --- |
 
 ## Overview
 
