@@ -3,11 +3,11 @@
 
 ## Overview
 
-The HPC (High Performance Computing) cluster is a central computation infrastructure at ISD. Using the SLURM cluster engine (same as on the LRZ cluster), you can run jobs, i.e. simple commands, scripts or arrays, on the CPU cluster (GPUs coming soon). For training of neural networks, there will be a dedicated training node with 2 large memory GPUs (coming soon).
+The HPC (High Performance Computing) cluster is a central computation infrastructure at ISD. Using the SLURM cluster engine (same as on the LRZ cluster), you can run jobs, i.e. simple commands, scripts or arrays, on the CPU + GPU cluster. For training of neural networks, one node is equipped with 2 large memory GPUs.
 
 ## User Documentation
 
-**Please consult the user documentation including  [wiki](http://git.isd-muc.de:8080/DueringLab/Cluster_User/wiki) and [example code](http://git.isd-muc.de:8080/DueringLab/Cluster_User).**  
+**Please consult the user documentation including [wiki](http://git.isd-muc.de:8080/DueringLab/Cluster_User/wiki) and [example code](http://git.isd-muc.de:8080/DueringLab/Cluster_User).**  
 The documentation is found on the Gitea server (login with your **FUL account**).
 
 > **Please note**: The documentation is **work in progress** and will be extended over the coming weeks. More detailed SLURM documentations are available elsewhere, e.g. at the [Leibniz Rechenzentrum](https://doku.lrz.de/display/PUBLIC/SLURM+Workload+Manager). Most aspects will also apply to our cluster.
@@ -33,9 +33,9 @@ One node (#) is equipped with two large memory GPUs and can be used for training
 
 ## Software 
 
-The operating system of the cluster is Ubuntu Linux 18.04.4 LTS (HWE). There is only command-line access, no graphical user interface.
+The operating system of the cluster is Ubuntu Linux 18.04.4 LTS (HWE). There is only command-line access, no complete graphical user interface.
 
-Software is handled via [environment modules](https://modules.readthedocs.io/en/latest/). Please contact the cluster admins to install software cluster-wide.
+Software is mostly handled via [environment modules](https://modules.readthedocs.io/en/latest/) or Singularity containers. You can install your own binaries. Please contact the cluster admins to install more complex packages or to deplos software cluster-wide.
 
 ## Administrators
 
