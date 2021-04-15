@@ -20,9 +20,9 @@ The Linux-based cluster consists of a head node (or "login node", the entry poin
 
 |  | Head Node | Compute Nodes |
 | ---- | --------- | ---- |
-| Machines | 1 | 8 |
-| CPU(s) | AMD EPYC "Rome" 7302P (16-Core) | 2x AMD EPYC "Rome" 7352 (24-Core)|
-| Physical cores | 0 | 48 per node, 384 in total |
+| Machines | 1 | 9 |
+| CPU(s) | AMD EPYC 16-Core (7302P) | 2x AMD EPYC 24-Core (7352 or 7402)|
+| Physical cores | None for compute | 48 per node, 432 in total |
 | RAM | 128 GB | 256 GB per node |
 | Local scratch | 0 | 1 TB NVMe-SSD |
 | Networking | 10 Gbit | 10 Gbit |
@@ -35,11 +35,10 @@ One node (#) is equipped with two large memory GPUs and can be used for training
 
 The operating system of the cluster is Ubuntu Linux 18.04.4 LTS (HWE). There is only command-line access, no complete graphical user interface.
 
-Software is mostly handled via [environment modules](https://modules.readthedocs.io/en/latest/) or Singularity containers. You can install your own binaries. Please contact the cluster admins to install more complex packages or to deplos software cluster-wide.
+Software is mostly handled via [environment modules](https://modules.readthedocs.io/en/latest/) or Singularity containers. You can install your own binaries and use your own containers. Please contact the cluster admins to install more complex packages or to deploy software cluster-wide.
 
 ## Administrators
 
-To get more info or a cluster user account, please contact the cluster admins:  
-[Benno](mailto:benno.gesierich@med.uni-muenchen.de) or [Marco](mailto:marco.duering@med.uni-muenchen.de)
+To get more info or a cluster user account, please contact [ISD IT](edvb@isd-muenchen.de).
 
 &nbsp;
